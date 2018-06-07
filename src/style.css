@@ -39,14 +39,14 @@ font-size: 1,5em;
 
 #botonBuscar{
   background-color: #FFBF00;
-  border: #FFBF00 1px solid;
+  border:#FFBF00  1px solid;
   border-radius: 3px;
-  color: white;
+  color:black;
   font-family: Verdana;
   cursor: pointer;
 }
 #botonBuscar:hover{
-  background-color: black;
-  border: black 1px solid;
-  color:fuchsia;
+  background-color: #FFE521;
+  border: #FFE521 1px solid;
+  color:black;
 }
