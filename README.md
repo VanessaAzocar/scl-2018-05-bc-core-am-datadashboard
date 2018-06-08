@@ -18,6 +18,7 @@ Obtener datos ordenados de las postulantes a la última generación(Pre-admisió
 ## Cuáles son los datos más relevantes que el usuario quiere ver en la interfaz y por qué. Cómo los descubriste.
 
 En primer lugar, el grado de completitud de los retos de las diferentes evaluaciones, y luego los resultados. Después con estos datos ordenados, poder visualizarlos a modo de ranking, lo que permite ver el nivel en que se encuentra cada postulante. Toda esta información la obtuvimos por medio de una entrevista realizada a Valentina Smith, Training Manager de la sede Laboratoria en Santiago.
+* Para leer la entrevista, haz click [aquí](https://github.com/CamiRamirez/scl-2018-05-bc-core-am-datadashboard/blob/master/anexos/entrevista-vale.pdf)
 
 ## ¿Cuándo revisa normalmente estos datos?
 
