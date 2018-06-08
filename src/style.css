@@ -1,0 +1,52 @@
+/*body{
+  background-image: url(../img/tru9y_wg_400x400\ copia.png);
+  background-size: 20%;
+}*/
+
+.logo{
+  margin-top: 2%; 
+}
+.menuLateral {
+  width: 25%;
+  height: 100% auto;
+  background-color: #FFBF00;
+}
+
+.tituloCiudades {
+color: #333333;
+font-family: verdana;
+font-size: 1,5em;
+}
+ /*Opciones dentro de cada Ciudad*/
+.botonMenu {
+  display: block;
+  background: none;
+  border: none;
+  color: white;
+  font-family: Verdana;
+  margin: 2% 2%;
+  cursor: pointer;
+  font-size: 1em;
+}
+.botonMenu:hover{
+  color: #333333;
+}
+
+/*Input de busqueda*/
+#busquedaNombres{
+  margin-right: 10px;
+}
+
+#botonBuscar{
+  background-color: #FFBF00;
+  border:#FFBF00  1px solid;
+  border-radius: 3px;
+  color:black;
+  font-family: Verdana;
+  cursor: pointer;
+}
+#botonBuscar:hover{
+  background-color: #FFE521;
+  border: #FFE521 1px solid;
+  color:black;
+}

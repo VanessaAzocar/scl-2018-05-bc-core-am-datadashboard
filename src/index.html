@@ -2,10 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Data Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../src/grid.css">
+    <link rel="stylesheet" href="../src/style.css" />
   </head>
   <body>
+    <div class="container"><!-- inicio container general -->
+      <img src="../img/1527645394-27418802-257x33-Laboratoria-Logo-RGB (1).png" alt="LogoLaboratoria" class="col-3 logo">
+        <div class="col-10">
+          <input type="search" placeholder ="Buscar por nombre..." id="busquedaNombres">
+          <button id="botonBuscar">Buscar</button>
+        </div>
+
+        <!-- Aquí va el menú de Lima -->
+        <div class="col-3 menuLateral">
+          <h2 class="tituloCiudades">Lima</h2>
+          <li class="botonMenu"id="botonPreLima">• Pre Admisión</li>
+          <li class="botonMenu"id="botonEstudiantesLima">• Estudiantes</li>
+          <li class="botonMenu"id="botonEgresadasLima">• Egresadas</li>
+          <li class="botonMenu"id="botonEducacionContinuaLima">• Educación continua</li>
+        </div>
+        <!--<div class="col-10"></div>-->
+    
+        <!-- Aquí va el menú de Santiago -->
+        <div class="col-3 menuLateral">
+          <h2 class="tituloCiudades">Santiago</h2>
+          <li class="botonMenu"id="botonPreStgo">• Pre Admisión</li>
+          <li class="botonMenu"id="botonEstudiantesStgo">• Estudiantes</li>
+          <li class="botonMenu"id="botonEgresadasStgo">• Egresadas</li>
+          <li class="botonMenu"id="botonEducacionContinuaStgo">• Educación continua</li>
+        </div>
+          <!--<div class="col-10"></div>-->
+
+        <!-- Aquí va el menú de Ciudad de México -->
+        <div class="col-3 menuLateral">
+          <h2 class="tituloCiudades">Ciudad de México</h2>
+          <li class="botonMenu"id="botonPreMx">• Pre Admisión</li>
+          <li class="botonMenu"id="botonEstudiantesMx">• Estudiantes</li>
+          <li class="botonMenu"id="botonEgresadasMx">• Egresadas</li>
+          <li class="botonMenu"id="botonEducacionContinuaMx">• Educación continua</li>
+        </div>
+        <!--<div class="col-9"></div>-->
+
+        <!-- Aquí va el menú de Sao Paulo -->
+        <div class="col-3 menuLateral">
+          <h2 class="tituloCiudades">Sao Paulo</h2>
+          <li class="botonMenu"id="botonPreSp">• Pre Admisión</li>
+          <li class="botonMenu"id="botonEstudiantesSp">• Estudiantes</li>
+          <li class="botonMenu"id="botonEgresadasSp">• Egresadas</li>
+          <li class="botonMenu"id="botonEducacionContinuaSp">• Educación continua</li>
+        </div>
+        <!--<div class="col-9"></div>-->
+
+    </div> <!-- fin de container general -->
     <script src="main.js"></script>
   </body>
 </html>
