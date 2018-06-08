@@ -1,7 +1,7 @@
 ## DATA DASHBOARD
   PROYECTO N° 2
    
-![alt text](../ img / 1527645394-27418802-257x33-Laboratoria-Logo-RGB (1).png )
+![alt text](../img/1527645394-27418802-257x33-Laboratoria-Logo-RGB (1).png)
 
 
 + # Descripción de producto
@@ -34,6 +34,14 @@ Primero, optimiza el tiempo ordenando los datos y evitando la búsqueda manual d
 
 El primer paso fue identificar las necesidades de los usuarios de nuestro proyecto, que puntos podríamos mejorar de lo que ya tienen para visualizar este tipo de datos y hacer que la aplicación les entregue información lo más ordenada posible, evitando cálculos manuales y haciendo la toma de decisiones mucho más ágil.
 Con respecto al diseño, seguimos el manual de marca de Laboratoria, utilizando los colores y tipografías institucionales. 
+
+PRIMER SKETCH
+
+Para esta propuesta, ubicamos el logo de Laboratoria en la esquina superior izquierda, y una barra de búsqueda por nombres a la derecha.
+Añadimos una menú superior en donde se encuentran todas las ciudades, y sus respectivos sub-índices (pre-admision, etc).
+Luego una imagen que abarca el espacio donde despues de hacer clik en -por ejemplo- Pre-admisión, aparecen los listados de nombres y porcentajes de completitud. Por último, una barra inferior con links a web y redes sociales.
+
+
 
 
 
