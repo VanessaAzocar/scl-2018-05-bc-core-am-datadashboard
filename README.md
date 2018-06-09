@@ -1,6 +1,6 @@
 ## PROYECTO N° 2: DATA DASHBOARD
 
-![alt text](https://raw.githubusercontent.com/CamiRamirez/scl-2018-05-bc-core-am-datadashboard/master/img/1527645394-27418802-257x33-Laboratoria-Logo-RGB%20(1).png)
+![alt text](https://raw.githubusercontent.com/CamiRamirez/scl-2018-05-bc-core-am-datadashboard/master/img/descarga.png)
 
 ## Descripción de producto
  

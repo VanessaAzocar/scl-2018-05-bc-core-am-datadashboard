@@ -14,10 +14,10 @@
   background-color: #FFBF00;
   border: 1px solid white;
 }
-
-.menuSuperior :hover {
+.menuSuperior :hover{
   background-color: #FF009E;
 }
+
 
  /*Ciudades del menu superior*/
 .botonMenu {
@@ -31,11 +31,10 @@
   text-align: center;
 }
 
-
 /*Input de busqueda*/
 
 #busquedaNombres{
- margin: 1em;
+  margin: 1em;
 }
 
 #botonBuscar {
@@ -46,6 +45,7 @@
   font-family: 'Open sans';
   cursor: pointer;
 }
+
 #botonBuscar:hover{
   background-color: #FFE521;
   border: #FFE521 1px solid;
@@ -62,11 +62,13 @@
   font-size: 2em;
   margin: 0.5em;
 }
+
 #sitioweb{
   color: white;
   font-size: 2em;
   margin: 0.5em;
 }
+
 #twitter{
   color: white;
   font-size: 2em;
