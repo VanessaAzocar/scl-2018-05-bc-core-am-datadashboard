@@ -17,8 +17,6 @@
 
 .menuSuperior :hover {
   background-color: #FF009E;
-
-
 }
 
  /*Ciudades del menu superior*/
@@ -26,7 +24,7 @@
   display: block;
   background: none;
   color: white;
-  font-family: Verdana;
+  font-family: 'Open Sans';
   margin: 2% 2%;
   cursor: pointer;
   font-size: 1.2em;
@@ -36,13 +34,16 @@
 
 /*Input de busqueda*/
 
+#busquedaNombres{
+ margin-top: 2em;
+}
 
 #botonBuscar {
   background-color: #FFBF00;
   border:#FFBF00  1px solid;
   border-radius: 3px;
   color:black;
-  font-family: Verdana;
+  font-family: 'Open sans';
   cursor: pointer;
 }
 #botonBuscar:hover{
