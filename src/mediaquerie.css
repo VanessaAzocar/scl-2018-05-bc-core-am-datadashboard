@@ -1,0 +1,13 @@
+
+@media (max-width: 400px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 817px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+

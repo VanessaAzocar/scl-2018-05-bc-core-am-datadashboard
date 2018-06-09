@@ -27,8 +27,7 @@ Crear container
 
 [class*="col-"] {
   float: left;
-  min-height: 7px;
-  padding: 12px; /* gutters */
+  min-height: 10px;/* gutters */
 }
 
 /*
@@ -83,17 +82,8 @@ formula para el ancho de las columnas (numero columnas / 12) * 100
   width: 100%;
 }
 
-/*MIS ESTILOS*/
 
-img {
-  width: 100%;
-}
 
-@media (max-width: 767px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-}
 
 
 
