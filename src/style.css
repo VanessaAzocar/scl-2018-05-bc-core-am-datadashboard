@@ -35,7 +35,7 @@
 /*Input de busqueda*/
 
 #busquedaNombres{
- margin-top: 2em;
+ margin: 1em;
 }
 
 #botonBuscar {
@@ -71,4 +71,9 @@
   color: white;
   font-size: 2em;
   margin: 0.5em;
+}
+
+#fondoweb {
+  width: 100%;
+  opacity: 0.4;
 }
