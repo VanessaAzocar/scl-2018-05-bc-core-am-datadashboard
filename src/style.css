@@ -13,26 +13,69 @@
   font-size: 1.5em;
   margin: 1% 0.5% 0.5% 2%;
 }
-
 #instagram{
   color: white;
   font-size: 1.5em;
   margin: 0.3em;
 }
-
 #twitter{
   color: white;
   font-size: 1.5em;
   margin: 0.3em;
 }
-.barralogo {
-  margin-left: 100%;
-  margin-top: 10em; 
-}
 
 /*INGRESAR*/
+.ingresar{
+  background-color: #FFE521;
+  font-family: 'Open Sans';
+}
+
+h1{
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+}
+
+p{
+  margin: 20px 20px 20px 20px;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid black;
+  background: #FFE521;
+  outline: none; /*no se ve el rectangulo para ingresar datos*/
+  height: 50px;
+  color: black;
+  font-size: 16px;
+}
+
+input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black ;
+    color:white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+input[type="button"]:hover{
+    background: #FF009E;
+    color:white;
+}
 
 
+
+/*para ocultar todo lo de despues de ingresar*/
+.afterEntering{
+  display: none;
+}
 
 /*Menu de ciudades*/
 .menuSuperior {
