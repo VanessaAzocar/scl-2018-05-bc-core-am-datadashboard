@@ -12,35 +12,56 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body> 
-    <div class="container"><!-- inicio container general -->
-      <div class="row barraRrss"> <!-- inicio primer row, barra negra -->
-        <div class="col-11">
-          <span>
-            <a href="https://www.facebook.com/laboratoriala"><i class="fab fa-facebook" id="facebook"></i></a>
-          </span>
-          <span>
-            <a href="https://www.instagram.com/laboratoriala/?hl=es-la"><i class="fab fa-instagram" id="instagram"></i></a>
-          </span>
-          <span>
-            <a href= "https://twitter.com/Laboratoriala"><i class="fab fa-twitter-square" id="twitter"></i></a>
-          </span>
-        </div>
-        </div><!-- fin de primer row --> 
+    <!-- inicio container general -->
+   <div class="container">
+           <!-- inicio 1° row, barra negra -->
+           <div class="row barraRrss"> 
+              <div class="col-11">
+                <span>
+                  <a href="https://www.facebook.com/laboratoriala"><i class="fab fa-facebook" id="facebook"></i></a>
+                </span>
+                <span>
+                  <a href="https://www.instagram.com/laboratoriala/?hl=es-la"><i class="fab fa-instagram" id="instagram"></i></a>
+                </span>
+                <span>
+                  <a href= "https://twitter.com/Laboratoriala"><i class="fab fa-twitter-square" id="twitter"></i></a>
+                </span>
+              </div>
+              </div><!-- fin de 1° row --> 
+      
+      <!-- 2° row:logo -->
+      <div class="row barraLogo">
+          <div class="col-4"></div>       
+          <div class="col-4"><img src="../img/descarga.png" alt="LogoLaboratoria"></div>
+          <div class="col-4"></div>       
+        </div><!-- fin 2° row:logo-->
 
-      <div class="row barraLogo"> <!-- segundo row:logo -->
-        <div class="col-4"></div>       
-        <div class="col-4"><img src="../img/descarga.png" alt="LogoLaboratoria"></div>
-        <div class="col-4"></div>       
-      </div><!-- fin segundo row:logo-->
+     <!-- 3° row ingresar -->
+      <div class= "row entrar">
+          <div class= "col-4">
+          <!-- inicio formulario Ingreso -->
+           <form name=form action="TU_PAGINA_WEB.HTML">
+            <h1>Iniciar Sesión</h1>
+            <p>Usuario:    <input type=text name=login> 
+            <p>Contraseña: <input type=password name=password> 
+            <input onclick=go() type=button value=Ingresar>
+            </form> <!-- fin formulario Ingreso -->
+            </div>
+      </div> <!-- fin 3 row ingresar -->
 
-      <div class="row"> <!-- tercer row, barra busqueda -->
+<!-- seccion luego de Ingresar -->
+<section class="after entering">
+        
+      <!-- 4° row, barra busqueda -->
+      <div class="row"> 
         <div class="col-9"></div>
         <div class="col-3 barraBuscar"><input type="search" placeholder ="Nombre de Alumna" id="busquedaNombres">
           <button id="botonBuscar">Buscar</button>
         </div>
-      </div> <!-- fin tercer row, barra busqueda -->
-
-      <div class="row"><!-- tercer row, ciudades-->
+      </div> <!-- fin 4° row, barra busqueda -->
+      
+      <!-- 5° row, ciudades-->
+      <div class="row">
         <!-- Aquí va el menu de Lima -->
         <div class="col-3 menuSuperior">
           <li class="botonMenu"id="botonLima">LIMA</li>
@@ -57,11 +78,16 @@
         <div class="col-3 menuSuperior">
             <li class="botonMenu"id="botonSp">SAO PAULO</li>
         </div>
-      </div>
+      </div> <!-- fin 5° row ciudades -->
+      
+      <!-- 6° row imagen de fondo -->
       <div class="row">
         <div class="col-12"><img src="../img/img1.jpg" alt="imagenfondo" id="fondoweb"></div>
-      </div>
+      </div> <!-- fin 6° row imagen fondo -->
+
     </div> <!-- fin de container general -->
+    </section> <!-- fin de seccion para ingresar -->
+
     <script src="main.js"></script>
   </body>
 </html>
