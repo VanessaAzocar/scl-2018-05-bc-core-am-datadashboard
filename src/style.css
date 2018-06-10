@@ -3,78 +3,76 @@
   background-size: 20%;
 }*/
 
+.barraRrss {
+  background-color: black;
+  height: 2.5em;
+}
+
+#facebook{
+  color: white;
+  font-size: 1.5em;
+  margin: 1% 0.5% 0.5% 2%;
+}
+
+#instagram{
+  color: white;
+  font-size: 1.5em;
+  margin: 0.3em;
+}
+
+#twitter{
+  color: white;
+  font-size: 1.5em;
+  margin: 0.3em;
+}
 .barralogo {
-  margin-left: 50%;
+  margin-left: 100%;
   margin-top: 10em; 
 }
 
 .menuSuperior {
   width: 25%;
-  height: 100% auto;
-  background-color: #FFBF00;
-  border: 1px solid white;
+  height: 100%;
+  background-color: #FFE521;
+  border: 2px solid white;
 }
-.menuSuperior :hover{
+.menuSuperior:hover{
   background-color: #FF009E;
+  border: 0.5px solid #FF009E;
+  color: white;
+  font-weight: bold;
 }
-
 
  /*Ciudades del menu superior*/
 .botonMenu {
   display: block;
   background: none;
-  color: white;
   font-family: 'Open Sans';
   margin: 2% 2%;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
+  font-weight: bold;
 }
 
 /*Input de busqueda*/
-
 #busquedaNombres{
-  margin: 1em;
+  margin: 0em 1em 2em 1em;
 }
 
 #botonBuscar {
-  background-color: #FFBF00;
-  border:#FFBF00  1px solid;
-  border-radius: 3px;
-  color:black;
+  background-color: #FFE521;
+  border: 3px solid #FFE521 ;
+  border-radius: 2px;
   font-family: 'Open sans';
   cursor: pointer;
 }
 
 #botonBuscar:hover{
-  background-color: #FFE521;
-  border: #FFE521 1px solid;
-  color:black;
-}
-
-.barraRRSS {
-  background-color: black;
-  height: 4em;
-}
-
-#facebook{
+  background-color: #FF009E;
+  border: 1px solid #FF009E;
   color: white;
-  font-size: 2em;
-  margin: 0.5em;
 }
-
-#sitioweb{
-  color: white;
-  font-size: 2em;
-  margin: 0.5em;
-}
-
-#twitter{
-  color: white;
-  font-size: 2em;
-  margin: 0.5em;
-}
-
 #fondoweb {
   width: 100%;
   opacity: 0.4;
