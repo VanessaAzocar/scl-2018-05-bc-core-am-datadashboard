@@ -56,16 +56,18 @@
     <!-- 3° row ingresar -->
     <div class="row">
       <div class="col-4"></div>
-      <section class= "ingresar">
+      <section class="ingresar">
         <div class="col-4 ingresar">
           <!-- inicio formulario Ingreso -->
           <form name="form" action=login>
             <h1>Iniciar Sesión</h1>
             <p>Email:
               <input type="text" name="email">
-              <p>Contraseña:
-                <input type="password" name="password">
-                <input onclick=entrar() type="button" value="Ingresar">
+            </p>
+            <p>Contraseña:
+              <input type="password" name="password">
+            </p>
+            <input onclick=entrar() type="button" value="Ingresar">
           </form>
           <!-- fin formulario Ingreso -->
         </div>
@@ -77,6 +79,7 @@
 
     <!-- seccion luego de Ingresar -->
     <section class="afterEntering">
+
       <!-- 4° row, barra busqueda -->
       <div class="row">
         <div class="col-9"></div>
@@ -92,6 +95,12 @@
         <!-- Aquí va el menu de Lima -->
         <div class="col-3 menuSuperior">
           <li class="botonMenu" id="botonLima">LIMA</li>
+          <ul id="desplegableLima">
+            <li><a href="preadmisionLima.html">PRE ADMISIÓN</a></li>
+            <li><a href="estuantesLima.html">ESTUDIANTES</a></li>
+            <li><a href="graduadasLima.html">GRADUADAS</a></li>
+            <li><a href="educacionLima.html">EDUCACIÓN CONTINUA</a></li>
+          </ul>
         </div>
         <!-- Aquí va el menú de Santiago -->
         <div class="col-3 menuSuperior">
