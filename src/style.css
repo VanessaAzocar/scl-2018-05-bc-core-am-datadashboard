@@ -126,7 +126,7 @@ input[type="button"]:hover{
 }
 
 /*LISTADO DESPLEGABLE LIMA*/
-ul#desplegableLima {
+#desplegableLima{
 	list-style:none;
   display: block;
   background-color: rgba(197, 194, 194, 0.938);
@@ -137,7 +137,7 @@ ul#desplegableLima {
   font-weight: regular;
 	overflow:visible;
 }
-ul#desplegable li {
+#desplegableLima li {
 	display:none;
 	height:25px;
 	line-height:25px;
@@ -147,25 +147,25 @@ ul#desplegable li {
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 }
-ul#desplegable li:nth-child(1) {
+#desplegableLima li:nth-child(1) {
 	display:block;
 	border:1px solid #ccc;
 }
-ul#desplegable li:nth-child(1):after {
-	content:"+";
+#desplegableLima li:nth-child(1):after {
+	content:" ";
 	float:right;
 	margin-right:7px;
 }
-ul#desplegable:hover li {
-	display:block;
-}
-ul#desplegable li:last-child {
+#desplegableLima:hover li {
+  display:block;
+ }
+#desplegableLima li:last-child {
 	border-bottom:1px solid #ccc;
 }
-ul#desplegable li a {
+#desplegableLima li a {
 	display:block;
 }
-ul#desplegable li a:hover {
+#desplegableLima li a:hover {
 	background:#f0f0f0;
 }
 
