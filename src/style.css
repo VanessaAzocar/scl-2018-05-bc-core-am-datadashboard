@@ -67,7 +67,7 @@ input[type="button"]:hover{
 
 /*para ocultar todo lo de despues de ingresar*/
 .afterEntering{
-  display: none;
+ display: none;
 }
 
 /*Menu de ciudades*/
