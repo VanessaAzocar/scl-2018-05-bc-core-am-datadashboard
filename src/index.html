@@ -67,7 +67,7 @@
             <p>Contraseña:
               <input type="password" name="password">
             </p>
-            <input onclick=entrar() type="button" value="Ingresar">
+            <input onclick=entrar() type="button" value="Ingresar" id="buttonlogin">
           </form>
           <!-- fin formulario Ingreso -->
         </div>
@@ -82,8 +82,7 @@
 
       <!-- 4° row, barra busqueda -->
       <div class="row">
-        <div class="col-9"></div>
-        <div class="col-3 barraBuscar">
+        <div class="col-12 searchBar">
           <input type="search" placeholder="Nombre de Alumna" id="busquedaNombres">
           <button id="botonBuscar">Buscar</button>
         </div>
@@ -91,7 +90,7 @@
       <!-- fin 4° row, barra busqueda -->
 
       <!-- 5° row, ciudades-->
-      <div class="row">
+      <div class="row menus">
         <!-- Aquí va el menu de Lima -->
         <div class="col-3 menuSuperior">
           <li class="botonMenu" id="botonLima">LIMA</li>
