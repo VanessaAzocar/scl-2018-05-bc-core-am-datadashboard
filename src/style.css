@@ -138,7 +138,7 @@ input[type="button"]:hover{
 #desplegableLima{
 	list-style:none;
   display: block;
-  background-color: rgba(197, 194, 194, 0.938);
+  background-color: #FFE521;
   color: white;
   font-family: 'Open Sans';
   cursor: pointer;
@@ -146,13 +146,14 @@ input[type="button"]:hover{
   font-weight: regular;
 	overflow:visible;
 }
+
 #desplegableLima li {
 	display:none;
 	height:25px;
 	line-height:25px;
 	position:relative;
   z-index:9;
-  background:white;
+  background:#FFE521;
 	border-left:1px solid #ccc;
 	border-right:1px solid #ccc;
 }
