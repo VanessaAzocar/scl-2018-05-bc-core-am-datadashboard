@@ -1,8 +1,18 @@
+
 /* funcion de Ingresar contraseña */
 function entrar() {
   if (document.form.email.value === "valentina@laboratoria.cl" && document.form.password.value === "laboratoria") {
-    document.form.submit();
+    const btn_hide = document.getElementById('buttonlogin');
+    btn_hide.addEventListener("click", () => {
+      document.getElementsByClassName("ingresar")[0].classList.add("buttonlogin");
+    })
+
+    const btn_show = document.getElementById("buttonlogin");
+    btn_show.addEventListener("click", () => {
+      document.getElementsByClassName("afterEntering")[0].classList.remove("afterEntering");
+    })
   } else {
     alert("¡Datos inválidos! Por favor ingrese nombre de usuario y contraseña correctos.");
   }
 }
+
