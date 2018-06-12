@@ -5,10 +5,6 @@ function entrar() {
     const btn_hide = document.getElementById('buttonlogin');
     btn_hide.addEventListener("click", () => {
       document.getElementsByClassName("ingresar")[0].classList.add("buttonlogin");
-    })
-
-    const btn_show = document.getElementById("buttonlogin");
-    btn_show.addEventListener("click", () => {
       document.getElementsByClassName("afterEntering")[0].classList.remove("afterEntering");
     })
   } else {
