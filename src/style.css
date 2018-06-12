@@ -81,19 +81,24 @@ input[type="button"]:hover{
 }
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
+#searchBar{
+  text-align: center;
+}
+
 #busquedaNombres{
   margin: 0em 1em 2em 1em;
+  width: 10em;
 }
 #botonBuscar {
   background-color: #FFE521;
-  border: 3px solid #FFE521 ;
+  border: 2px solid #FFE521 ;
   border-radius: 2px;
   font-family: 'Open sans';
   cursor: pointer;
 }
 #botonBuscar:hover{
   background-color: #FF009E;
-  border: 1px solid #FF009E;
+  border: 2px solid #FF009E;
   color: white;
 }
 
