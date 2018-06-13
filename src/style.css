@@ -73,9 +73,9 @@ input[type="button"]:hover{
 }
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-/*.afterEntering{
+.afterEntering{
   display: none;
-}*/
+}
 .buttonlogin{
   display: none;
 }
@@ -140,6 +140,10 @@ input[type="button"]:hover{
 
 
 /*LISTADO DESPLEGABLE LIMA*/
+.listadoPreadmision{
+  display: none;
+}
+
 #desplegableLima{
 	list-style:none;
   display: block;
@@ -183,4 +187,5 @@ input[type="button"]:hover{
 #desplegableLima li a:hover {
 	background:#f0f0f0;
 }
+
 

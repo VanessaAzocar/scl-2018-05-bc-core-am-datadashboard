@@ -12,3 +12,7 @@ function entrar() {
   }
 }
 
+const btn_pre = document.getElementById('botonPreadmision');
+btn_pre.addEventListener("click", () => {
+  document.getElementsByClassName("listadoPreadmision")[0].classList.remove("listadoPreadmision");
+})
