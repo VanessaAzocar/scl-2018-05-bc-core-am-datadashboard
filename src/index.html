@@ -63,10 +63,12 @@
             <h1>Iniciar Sesión</h1>
             <p>Email:
               <input type="text" name="email">
+            <p id="errorEmail"></p>
             </p>
             <p>Contraseña:
               <input type="password" name="password">
             </p>
+            <p id="errorPass"></p>
             <input onclick=entrar() type="button" value="Ingresar" id="buttonlogin">
           </form>
           <!-- fin formulario Ingreso -->
@@ -125,22 +127,16 @@
       <!-- fin 5° row ciudades -->
 
       <!-- 6° row cajas de informacion -->
-      <div class="row">
+      <div class="row fondoweb">
+        <!-- arreglar esto, que toma las caracteristicas de estilo del fondo web -->
         <div class="col-4 listadoPreadmision">
-          <h1>Listado de postulantes a Pre-Admisión</h1>
+          <h1>Postulantes a Pre-Admisión</h1> 
+          <li>juanita perez</li>
         </div>
         <div class="col-4 infoPersonal"></div>
         <div class="col-4 completitud"></div>
       </div>
       <!-- fin 6° row cajas de informacion -->
-
-      <!-- 7° row imagen de fondo -->
-      <div class="row">
-        <div class="col-12">
-          <div id="fondoweb"></div>
-        </div>
-      </div>
-      <!-- fin 7° row imagen fondo -->
 
   </div>
   <!-- fin de container general -->
