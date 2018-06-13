@@ -9,10 +9,9 @@ function entrar() {
     }
     );
   } else {
-    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
-  } 
+    document.getElementById('errorPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
+  }
 }
-
 
 
 const btnPre = document.getElementById('botonPreadmision');

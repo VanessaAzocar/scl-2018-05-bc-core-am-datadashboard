@@ -44,36 +44,43 @@ p{
   margin: 20px;
   font-weight: bold;
 }
-input{
-  width: 100%;
-  margin-bottom: 30px;
-}
+
 input[type="text"], input[type="password"]{
+  height: 40px;
   border: none; /*no se ve el rectangulo para ingresar datos*/
   border-bottom: 1px solid black;
   background: #FFE521;
   outline: none; /*Al momento de escribir no se ve el rectangulo*/
-  height: 40px;
   color: black;
   font-size: 18px;
+  width: 100%;
+  margin-bottom: 30px;
 }
-input[type="button"]{
-    border:none;
-    outline: none;
+#buttonlogin{
     height: 40px;
-    background: black;
+    width: 92%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border:none; 
+    outline: none;
+    background-color: black;
     color:white;
     font-size: 18px;
     border-radius: 3px;
-    cursor: pointer;
+    cursor: pointer; /*junto con cursorhand, para que se vea una mano cuando se pasa por encima*/
+    cursor: hand;
+    margin: none;
 }
-input[type="button"]:hover{
+#buttonlogin:hover{
     background: #FF009E;
     color:white;
 }
 
+
 /*PARA EL MSJE DE CONTRASEÑA INVALIDA*/
-#errorPass{
+#errorPassword{
   color: red;
   text-align: center;
 }
@@ -89,7 +96,7 @@ input[type="button"]:hover{
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
 #searchBar {
-  text-align: center;
+  text-align: left;
 }
 
 #busquedaNombres{
