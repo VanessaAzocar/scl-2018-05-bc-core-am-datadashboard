@@ -3,11 +3,17 @@
   [class*="col-"] {
     width: 100%;
   }
+  [id*="logo"] {
+    width: 50%;
+  }
 }
 
 @media (max-width: 817px) {
   [class*="col-"] {
     width: 100%;
+  }
+  [id*="logo"] {
+    width: 50%;
   }
 }
 
