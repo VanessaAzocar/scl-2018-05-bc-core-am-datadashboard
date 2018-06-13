@@ -95,14 +95,14 @@ input[type="text"], input[type="password"]{
 }
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
-#searchBar {
-  text-align: left;
+.search{
+margin-bottom: 2%;  
 }
 
 #busquedaNombres{
-  margin: 0em 1em 2em 1em;
-  width: 10em;
-  
+  resize: none;
+  width: 210px;
+  height: 22px;  
 }
 #botonBuscar {
   background-color: #FFE521;
