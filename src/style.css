@@ -73,21 +73,22 @@ input[type="button"]:hover{
 }
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-.afterEntering{
+/*.afterEntering{
   display: none;
-}
+}*/
 .buttonlogin{
   display: none;
 }
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
-#searchBar{
+#searchBar {
   text-align: center;
 }
 
 #busquedaNombres{
   margin: 0em 1em 2em 1em;
   width: 10em;
+  
 }
 #botonBuscar {
   background-color: #FFE521;
@@ -130,9 +131,13 @@ input[type="button"]:hover{
 
 /*Imagen fondo en menu ciudades*/
 #fondoweb {
-  width: 100%;
+  background-image: url(../img/img1.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  height: 70em;
   opacity: 0.4;
 }
+
 
 /*LISTADO DESPLEGABLE LIMA*/
 #desplegableLima{
