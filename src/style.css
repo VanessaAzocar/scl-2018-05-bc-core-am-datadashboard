@@ -130,14 +130,13 @@ input[type="button"]:hover{
 }
 
 /*Imagen fondo en menu ciudades*/
-#fondoweb {
+.fondoweb {
   background-image: url(../img/img1.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
   height: 70em;
   opacity: 0.4;
 }
-
 
 /*LISTADO DESPLEGABLE LIMA*/
 .listadoPreadmision{

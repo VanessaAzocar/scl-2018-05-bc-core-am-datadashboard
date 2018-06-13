@@ -8,7 +8,7 @@ function entrar() {
       document.getElementsByClassName("afterEntering")[0].classList.remove("afterEntering");
     })
   } else {
-    alert("¡Datos inválidos! Por favor ingrese nombre de usuario y contraseña correctos.");
+    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a escribir tus datos.';
   }
 }
 
@@ -16,3 +16,4 @@ const btn_pre = document.getElementById('botonPreadmision');
 btn_pre.addEventListener("click", () => {
   document.getElementsByClassName("listadoPreadmision")[0].classList.remove("listadoPreadmision");
 })
+
