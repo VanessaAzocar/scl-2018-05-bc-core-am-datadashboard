@@ -8,7 +8,7 @@ function entrar() {
       document.getElementsByClassName("afterEntering")[0].classList.remove("afterEntering");
     })
   } else {
-    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a escribir tus datos.';
+    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
   }
 }
 

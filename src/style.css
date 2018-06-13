@@ -76,14 +76,17 @@ input[type="button"]:hover{
 .afterEntering{
   display: none;
 }
+
+#errorPass{
+  text-align: center;
+  color: rgb(221, 17, 17);
+}
+
 .buttonlogin{
   display: none;
 }
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
-#searchBar {
-  text-align: center;
-}
 
 #busquedaNombres{
   margin: 0em 1em 2em 1em;
