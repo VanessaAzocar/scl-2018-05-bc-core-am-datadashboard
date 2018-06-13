@@ -55,24 +55,20 @@
 
     <!-- 3° row ingresar -->
     <div class="row">
-      <div class="col-4"></div>
-      <section class="ingresar">
+      <div class="col-4"></div> <!-- col vacio -->
+      <section class="usuario">
         <div class="col-4 ingresar">
           <!-- inicio formulario Ingreso -->
           <form name="form" action=login>
             <h1>Iniciar Sesión</h1>
-            <p>Email:
-              <input type="text" name="email">
-            </p>
-            <p>Contraseña:
-              <input type="password" name="password">
-            </p>
-            <input onclick=entrar() type="button" value="Ingresar" id="buttonlogin">
+            <p>Email:<input type="text" name="email" id="email"></p>
+            <p>Contraseña:<input type="password" name="password" id="password"></p>
+            <input onclick="entrar()" type="button" value="Ingresar" id="buttonlogin">
           </form>
           <!-- fin formulario Ingreso -->
         </div>
       </section>
-      <div class="col-4"></div>
+      <div class="col-4"></div> <!-- col vacio -->
     </div>
     <!-- fin 3 row ingresar -->
 
