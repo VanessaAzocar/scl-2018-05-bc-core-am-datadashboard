@@ -73,9 +73,9 @@ input[type="button"]:hover{
 }
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-/*.afterEntering{
+.afterEntering{
   display: none;
-}*/
+}
 .buttonlogin{
   display: none;
 }
@@ -130,7 +130,7 @@ input[type="button"]:hover{
 }
 
 /*Imagen fondo en menu ciudades*/
-#fondoweb {
+.fondoweb {
   background-image: url(../img/img1.jpg);
   background-size: 100% auto;
   background-attachment: fixed;
@@ -138,8 +138,11 @@ input[type="button"]:hover{
   opacity: 0.4;
 }
 
-
 /*LISTADO DESPLEGABLE LIMA*/
+.listadoPreadmision{
+  display: none;
+}
+
 #desplegableLima{
 	list-style:none;
   display: block;
@@ -183,4 +186,5 @@ input[type="button"]:hover{
 #desplegableLima li a:hover {
 	background:#f0f0f0;
 }
+
 
