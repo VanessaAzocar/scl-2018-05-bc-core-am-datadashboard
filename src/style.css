@@ -73,9 +73,9 @@ input[type="button"]:hover{
 }
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-.afterEntering{
+/*.afterEntering{
   display: none;
-}
+}*/
 .buttonlogin{
   display: none;
 }
