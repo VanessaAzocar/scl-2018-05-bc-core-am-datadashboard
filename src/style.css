@@ -72,6 +72,13 @@ input[type="button"]:hover{
     color:white;
 }
 
+/*PARA EL MSJE DE CONTRASEÑA INVALIDA*/
+#errorPass{
+  color: red;
+  text-align: center;
+}
+
+
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
 .afterEntering{
   display: none;

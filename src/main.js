@@ -9,19 +9,14 @@ function entrar() {
     }
     );
   } else {
-<<<<<<< HEAD
-    document.getElementById('email').innerHTML = '¡Dato inválido!';
-    document.getElementById('password').innerHTML = '¡Dato inválido!';
-  }
-}
-=======
-    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a escribir tus datos.';
-  }
+    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
+  } 
 }
 
-const btn_pre = document.getElementById('botonPreadmision');
-btn_pre.addEventListener("click", () => {
-  document.getElementsByClassName("listadoPreadmision")[0].classList.remove("listadoPreadmision");
-})
 
->>>>>>> 489b928db64f9524baa53d29e19f050f89d28389
+
+const btnPre = document.getElementById('botonPreadmision');
+btnPre.addEventListener('click', () => {
+  document.getElementsByClassName('listadoPreadmision')[0].classList.remove('listadoPreadmision');
+});
+
