@@ -7,6 +7,9 @@
   [id*="logo"] {
     width: 50%;
   }
+   [class*="search"] {
+    width: 20%;
+  }
 }
 
 @media (max-width: 817px) {
