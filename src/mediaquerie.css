@@ -1,9 +1,9 @@
-
+/*
 @media (max-width: 400px) {
   [class*="col-"] {
     width: 100%;
   }
-  /*Aquí adaptamos el logo, ya que al estar en un col-, queda al 100% y deforma la pagina*/
+ Aquí adaptamos el logo, ya que al estar en un col-, queda al 100% y deforma la pagina
   [id*="logo"] {
     width: 50%;
   }
@@ -17,4 +17,4 @@
     width: 50%;
   }
 }
-
+*/

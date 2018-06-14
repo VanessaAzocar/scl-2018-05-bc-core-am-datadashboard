@@ -14,7 +14,7 @@ function entrar() {
 }
 
 
-const btnPre = document.getElementById('botonPreadmision');
+const btnPre = document.getElementById('buttomPre');
 btnPre.addEventListener('click', () => {
   document.getElementsByClassName('listadoPreadmision')[0].classList.remove('listadoPreadmision');
 });
