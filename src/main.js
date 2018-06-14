@@ -1,19 +1,21 @@
 
 /* funcion de Ingresar contraseña */
 function entrar() {
-  if (document.form.email.value === "valentina@laboratoria.cl" && document.form.password.value === "laboratoria") {
-    const btn_hide = document.getElementById('buttonlogin');
-    btn_hide.addEventListener("click", () => {
-      document.getElementsByClassName("ingresar")[0].classList.add("buttonlogin");
-      document.getElementsByClassName("afterEntering")[0].classList.remove("afterEntering");
-    })
+  if (document.form.email.value === 'valentina@laboratoria.cl' && document.form.password.value === 'laboratoria') {
+    const btnhide = document.getElementById('buttonlogin');
+    btnhide.addEventListener('click', () => {
+      document.getElementsByClassName('ingresar')[0].classList.add('buttonlogin');
+      document.getElementsByClassName('afterEntering')[0].classList.remove('afterEntering');
+    }
+    );
   } else {
-    document.getElementById('errorPass').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
+    document.getElementById('errorPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
   }
 }
 
-const btn_pre = document.getElementById('botonPreadmision');
-btn_pre.addEventListener("click", () => {
-  document.getElementsByClassName("listadoPreadmision")[0].classList.remove("listadoPreadmision");
-})
+
+const btnPre = document.getElementById('buttomPre');
+btnPre.addEventListener('click', () => {
+  document.getElementsByClassName('listadoPreadmision')[0].classList.remove('listadoPreadmision');
+});
 

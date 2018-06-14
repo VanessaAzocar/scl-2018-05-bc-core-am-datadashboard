@@ -7,6 +7,7 @@
   <title>Data Dashboard</title>
   <link rel="icon" type="image/jpg" href="../img/pEayf5s-_400x400.jpg" />
   <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../src/css/bootstrap.css">
   <link rel="stylesheet" href="../src/grid.css">
   <link rel="stylesheet" href="../src/style.css" />
   <link rel="stylesheet" href="../src/mediaquerie.css">
@@ -16,7 +17,7 @@
 
 <body>
   <!-- Inicio container general -->
-  <div class="container">
+  <div class="container-fuid">
 
     <!-- inicio 1° row, barra negra -->
     <div class="row topBar">
@@ -55,9 +56,10 @@
 
     <!-- 3° row ingresar -->
     <div class="row">
-      <div class="col-4"></div>
-      <section class="ingresar">
-        <div class="col-4 ingresar">
+      <div class="col-sm"></div>
+      <!-- col vacio -->
+      <section class="usuario">
+        <div class="col-sm ingresar">
           <!-- inicio formulario Ingreso -->
           <form name="form" action=login>
             <h1>Iniciar Sesión</h1>
@@ -67,13 +69,15 @@
             <p>Contraseña:
               <input type="password" name="password">
             </p>
-            <p id="errorPass"></p>
+            <p id="errorPassword"></p>
+            <!-- boton -->
             <input onclick=entrar() type="button" value="Ingresar" id="buttonlogin">
           </form>
           <!-- fin formulario Ingreso -->
         </div>
       </section>
-      <div class="col-4"></div>
+      <div class="col-sm"></div>
+      <!-- col vacio -->
     </div>
     <!-- fin 3 row ingresar -->
 
@@ -83,57 +87,69 @@
 
       <!-- 4° row, barra busqueda -->
       <div class="row">
-        <div class="col-12 searchBar">
-          <input type="search" placeholder="Buscar por nombre..." id="busquedaNombres">
-          <button id="botonBuscar">Buscar</button>
+        <div class="col-sm"></div>
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <nav class="navbar navbar-light bg-light">
+            <form class="form-inline  searchName">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav>
         </div>
       </div>
       <!-- fin 4° row, barra busqueda -->
 
       <!-- 5° row, ciudades-->
-      <div class="row menus">
-        <!-- Aquí va el menu de Lima -->
-        <nav class="col-3 menuSuperior">
-          <ul id="desplegableLima">
-            <li class="botonMenu" id="botonLima">LIMA</li>
-            <li id="botonPreadmision">
-              <a>PRE ADMISIÓN</a>
-            </li>
-            <li>
-              <a href="estudiantesLima.html">ESTUDIANTES</a>
-            </li>
-            <li>
-              <a href="graduadasLima.html">GRADUADAS</a>
-            </li>
-            <li>
-              <a href="educacionLima.html">EDUCACIÓN CONTINUA</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- Aquí va el menú de Santiago -->
-        <div class="col-3 menuSuperior">
-          <li class="botonMenu" id="botonStgo">SANTIAGO</li>
-        </div>
-        <!-- Aquí va el menú de Ciudad de México -->
-        <div class="col-3 menuSuperior">
-          <li class="botonMenu" id="botonMx">CIUDAD DE MÉXICO</li>
-        </div>
-        <!-- Aquí va el menú de Sao Paulo -->
-        <div class="col-3 menuSuperior">
-          <li class="botonMenu" id="botonSp">SAO PAULO</li>
-        </div>
-      </div>
+      <ul class="nav nav-tabs">
+        <li class="col-sm nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+            LIMA</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" id="buttomPre" href="#!">Pre-Admisión</a>
+            <a class="dropdown-item" href="#!">Egresadas</a>
+            <a class="dropdown-item" href="#!">Continuidad</a>
+          </div>
+        </li>
+        <li class="col-sm nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+            SANTIAGO</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#!">Pre-Admisión</a>
+            <a class="dropdown-item" href="#!">Egresadas</a>
+            <a class="dropdown-item" href="#!">Continuidad</a>
+          </div>
+        </li>
+        <li class="col-sm nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+            CIUDAD DE MÉXICO</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#!">Pre-Admisión</a>
+            <a class="dropdown-item" href="#!">Egresadas</a>
+            <a class="dropdown-item" href="#!">Continuidad</a>
+          </div>
+        </li>
+        <li class="col-sm nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
+            SAO PAULO</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#!">Pre-Admisión</a>
+            <a class="dropdown-item" href="#!">Egresadas</a>
+            <a class="dropdown-item" href="#!">Continuidad</a>
+          </div>
+        </li>
+      </ul>
       <!-- fin 5° row ciudades -->
 
       <!-- 6° row cajas de informacion -->
       <div class="row fondoweb">
         <!-- arreglar esto, que toma las caracteristicas de estilo del fondo web -->
-        <div class="col-4 listadoPreadmision">
-          <h1>Postulantes a Pre-Admisión</h1> 
+        <div class="col-sm listadoPreadmision">
+          <h1>Postulantes a Pre-Admisión</h1>
           <li>juanita perez</li>
         </div>
-        <div class="col-4 infoPersonal"></div>
-        <div class="col-4 completitud"></div>
+        <div class="col-sm infoPersonal"></div>
+        <div class="col-sm completitud"></div>
       </div>
       <!-- fin 6° row cajas de informacion -->
 
@@ -142,7 +158,13 @@
   </section>
   <!-- fin de seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
 
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
   <script src="main.js"></script>
+
 </body>
 
 </html>
