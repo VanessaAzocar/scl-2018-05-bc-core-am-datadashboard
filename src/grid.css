@@ -1,12 +1,12 @@
 
-/*Resetear el navegador*/
-* {
+/*Resetear el navegador
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-/*Crear container*/
+*/
+/*Crear container
 container {
   width: 100%;
   max-width: 1300px;
@@ -21,10 +21,11 @@ container {
 
 [class*="col-"] {
   float: left;
-  min-height: 10px;/* gutters */
+  min-height: 10px;
 }
+*/
 
-/*formula para el ancho de las columnas (numero columnas / 12) * 100*/
+/*formula para el ancho de las columnas (numero columnas / 12) * 100
 .col-1 {
   width: 8.333333%;
 }
@@ -72,7 +73,7 @@ container {
 .col-12 {
   width: 100%;
 }
-
+*/
 
 
 
