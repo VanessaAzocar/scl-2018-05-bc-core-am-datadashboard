@@ -7,7 +7,6 @@
 .topBar {
   background-color: black;
   height: 2.5em;
-  width: 100%;
 }
 #facebook{
   color: white;
@@ -55,7 +54,6 @@ p{
   margin: 17px;
   font-weight: bold;
 }
-
 input[type="text"], input[type="password"]{
   height: 40px;
   border: none; /*no se ve el rectangulo para ingresar datos*/
@@ -97,9 +95,9 @@ input[type="text"], input[type="password"]{
 
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-/*.afterEntering{
+.afterEntering{
   display: none;
-}*/
+}
 
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
