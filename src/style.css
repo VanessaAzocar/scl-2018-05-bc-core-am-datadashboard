@@ -107,6 +107,10 @@ input[type="text"], input[type="password"]{
   color: black;
 }
 
+#inputTextName{
+  background-color: white;
+}
+
 .nav-link {
   background-color: #FFE521;
   border: 2px solid #FFE521 ;

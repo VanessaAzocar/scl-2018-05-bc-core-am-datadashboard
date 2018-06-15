@@ -13,7 +13,7 @@ function entrar() {
   }
 }
 
-
+//Este boton es el que abre el listado de pre admision en el menú superior//
 const btnPre = document.getElementById('buttomPre');
 btnPre.addEventListener('click', () => {
   document.getElementsByClassName('listadoPreadmision')[0].classList.remove('listadoPreadmision');
