@@ -5,12 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Data Dashboard</title>
+  <!-- link de icono parte superior de pestaña -->
   <link rel="icon" type="image/jpg" href="../img/pEayf5s-_400x400.jpg" />
+  <!-- link de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
+  <!-- link carpeta bootstap -->
   <link rel="stylesheet" href="../src/css/bootstrap.css">
+  <!-- link grilla -->
   <link rel="stylesheet" href="../src/grid.css">
+  <!-- link estilo css -->
   <link rel="stylesheet" href="../src/style.css" />
+  <!-- link responsive -->
   <link rel="stylesheet" href="../src/mediaquerie.css">
+  <!-- link icono -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
 </head>
@@ -49,7 +56,7 @@
     <!-- 2° row:logo -->
     <div class="row barraLogo">
       <div class="col-12">
-        <img id="logo" src="../img/descarga.png" alt="LogoLaboratoria">
+        <img id="logo" class="img-fluid" src="../img/Logo Laboratoria.png" alt="LogoLaboratoria">
       </div>
     </div>
     <!-- fin 2° row:logo-->
@@ -62,7 +69,9 @@
         <div class="col-sm ingresar">
           <!-- inicio formulario Ingreso -->
           <form name="form" action=login>
-            <h1>Iniciar Sesión</h1>
+            <div class="titulodos">
+              <p>Iniciar Sesión</p>
+            </div>
             <p>Email:
               <input type="text" name="email">
             </p>
@@ -86,18 +95,17 @@
     <section class="afterEntering">
 
       <!-- 4° row, barra busqueda -->
-      <div class="row">
-        <div class="col-sm"></div>
-        <div class="col-sm"></div>
-        <div class="col-sm">
-          <nav class="navbar navbar-light bg-light">
-            <form class="form-inline  searchName">
-              <input class="form-control mr-sm-2" type="text" id="inputTextName" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>
-        </div>
-      </div>
+
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand"></a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda por nombre" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </nav>
+
       <!-- fin 4° row, barra busqueda -->
 
       <!-- 5° row, ciudades-->
@@ -106,36 +114,40 @@
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
             LIMA</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" id="buttomPre" href="#!">Pre-Admisión</a>
-            <a class="dropdown-item" href="#!">Egresadas</a>
-            <a class="dropdown-item" href="#!">Continuidad</a>
+            <a class="dropdown-item" id="buttomPre" href="#!">PRE ADMISIÓN</a>
+            <a class="dropdown-item" href="#!">ESTUDIANTES</a>
+            <a class="dropdown-item" href="#!">EGRESADAS</a>
+            <a class="dropdown-item" href="#!">EDUCACIÓN CONTINUA</a>
           </div>
         </li>
         <li class="col-sm nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
             SANTIAGO</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#!">Pre-Admisión</a>
-            <a class="dropdown-item" href="#!">Egresadas</a>
-            <a class="dropdown-item" href="#!">Continuidad</a>
+            <a class="dropdown-item" href="#!">PRE ADMISIÓN</a>
+            <a class="dropdown-item" href="#!">ESTUDIANTES</a>
+            <a class="dropdown-item" href="#!">EGRESADAS</a>
+            <a class="dropdown-item" href="#!">EDUCACIÓN CONTINUA</a>
           </div>
         </li>
         <li class="col-sm nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
             CIUDAD DE MÉXICO</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#!">Pre-Admisión</a>
-            <a class="dropdown-item" href="#!">Egresadas</a>
-            <a class="dropdown-item" href="#!">Continuidad</a>
+            <a class="dropdown-item" href="#!">PRE ADMISIÓN</a>
+            <a class="dropdown-item" href="#!">ESTUDIANTES</a>
+            <a class="dropdown-item" href="#!">EGRESADAS</a>
+            <a class="dropdown-item" href="#!">EDUCACIÓN CONTINUA</a>
           </div>
         </li>
         <li class="col-sm nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
             SAO PAULO</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#!">Pre-Admisión</a>
-            <a class="dropdown-item" href="#!">Egresadas</a>
-            <a class="dropdown-item" href="#!">Continuidad</a>
+            <a class="dropdown-item" href="#!">PRE ADMISIÓN</a>
+            <a class="dropdown-item" href="#!">ESTUDIANTES</a>
+            <a class="dropdown-item" href="#!">EGRESADAS</a>
+            <a class="dropdown-item" href="#!">EDUCACIÓN CONTINUA</a>
           </div>
         </li>
       </ul>
@@ -163,6 +175,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+  <!-- link JS -->
   <script src="main.js"></script>
 
 </body>
