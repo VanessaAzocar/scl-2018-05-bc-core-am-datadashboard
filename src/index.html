@@ -56,7 +56,7 @@
     <!-- 2° row:logo -->
     <div class="row barraLogo">
       <div class="col-12">
-        <img id="logo" src="../img/Logo Laboratoria.png" alt="LogoLaboratoria">
+        <img id="logo" class="img-fluid" src="../img/Logo Laboratoria.png" alt="LogoLaboratoria">
       </div>
     </div>
     <!-- fin 2° row:logo-->
@@ -95,16 +95,18 @@
     <section class="afterEntering">
 
       <!-- 4° row, barra busqueda -->
-        
-        <nav class="navbar navbar-light bg-light justify-content-between">
-            <a class="navbar-brand"></a>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda por nombre" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-            </form>
-          </nav>
-       
-          <!-- fin 4° row, barra busqueda -->
+
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand"></a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda por nombre" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </nav>
+
+      <!-- fin 4° row, barra busqueda -->
 
       <!-- 5° row, ciudades-->
       <ul class="nav nav-tabs">
@@ -155,8 +157,10 @@
       <div class="row fondoweb">
         <!-- arreglar esto, que toma las caracteristicas de estilo del fondo web -->
         <div class="col-sm listadoPreadmision">
-          <h1>Postulantes a Pre-Admisión</h1>
-          <li>juanita perez</li>
+          <div id="listado">
+            <h1 id="titulopre"><strong>Listado de postulantes</strong></h1>
+            <p id="parrafoListado"></p>
+          </div>
         </div>
         <div class="col-sm infoPersonal"></div>
         <div class="col-sm completitud"></div>

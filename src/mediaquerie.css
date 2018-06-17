@@ -10,14 +10,4 @@
    [class*="search"] {
     width: 20%;
   }
-}
-
-@media (max-width: 817px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-  [id*="logo"] {
-    width: 50%;
-  }
-}
-*/
+}*/
