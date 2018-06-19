@@ -39,3 +39,6 @@ const renderUsers = (data) => { //recorre el objeto y me devuelve el nombre de c
     return render;    
   })
 }
+
+//Para que aparezca el listado de alumnas al hacer click en el cohort
+

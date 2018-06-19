@@ -182,8 +182,9 @@ padding: white;
 }
 
 #parrafoListado{
-  height: 25em;
-  width: 92%;
+  height: 24em;
+  width: 95%;
+  margin-left: 2%;
   background-color: beige;
   resize: none;
   overflow:scroll;
