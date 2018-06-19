@@ -90,7 +90,7 @@ input[type="text"], input[type="password"]{
 
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-/*.afterEntering{
+.afterEntering{
   display: none;
 }
 .buttonLogin{

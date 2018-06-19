@@ -4,7 +4,7 @@ function enter() {
   if (document.form.email.value === 'valentina@laboratoria.cl' && document.form.password.value === 'laboratoria') {
     const btnhide = document.getElementById('buttonLogin');
     btnhide.addEventListener('click', () => {
-      document.getElementsByClassName('ingresar')[0].classList.add('buttonLogin');
+      document.getElementsByClassName('login')[0].classList.add('buttonLogin');
       document.getElementsByClassName('afterEntering')[0].classList.remove('afterEntering');
     }
     );
