@@ -79,7 +79,7 @@
             </p>
             <p id="incorrectPassword"></p>
             <!-- boton -->
-            <input onclick=entrar() type="button" value="Ingresar" id="buttonlogin">
+            <input onclick=enter() type="button" value="Ingresar" id="buttonLogin">
           </form>
           <!-- fin formulario Ingreso -->
         </div>
@@ -94,26 +94,24 @@
     <section class="afterEntering">
 
       <!-- 4° row, barra busqueda -->
-
       <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand"></a>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda por nombre" aria-label="Search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Búsqueda por nombre..." aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
             <i class="fas fa-search"></i>
           </button>
         </form>
       </nav>
-
       <!-- fin 4° row, barra busqueda -->
 
-      <!-- 5° row, ciudades-->
+      <!-- 5° row, Ciudades-->
       <ul class="nav nav-tabs">
         <li class="col-sm nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#!" role="button" aria-haspopup="true" aria-expanded="false">
             LIMA</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" id="buttomPre" href="#!">PRE ADMISIÓN</a>
+            <a class="dropdown-item" id="btnPreadmission" href="#!">PRE ADMISIÓN</a>
             <a class="dropdown-item" href="#!">ESTUDIANTES</a>
             <a class="dropdown-item" href="#!">EGRESADAS</a>
             <a class="dropdown-item" href="#!">EDUCACIÓN CONTINUA</a>
@@ -153,25 +151,26 @@
       <!-- fin 5° row ciudades -->
 
       <!-- 6° row cajas de informacion -->
-      <div class="row fondoweb">
+      <!-- foto fija de fondo -->
+      <div class="row backgroundWeb">
         <!-- arreglar esto, que toma las caracteristicas de estilo del fondo web -->
-        <div class="col-sm listadoPreadmision">
-          <div id="listado">
-            <h1 id="titulopre">
-              <strong>Listado de postulantes</strong>
+        <div class="col-sm listPreadmission">
+          <div id="list">
+            <h1 id="titlePreadmission">
+              <strong>Listado de Postulantes</strong>
             </h1>
-            <p id="parrafoListado"></p>
+            <p id="paragraphList"></p>
           </div>
         </div>
         <div class="col-sm infoPersonal"></div>
         <div class="col-sm completitud"></div>
       </div>
       <!-- fin 6° row cajas de informacion -->
-
+    </section>
+    <!-- fin de seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
   </div>
   <!-- fin de container general -->
-  </section>
-  <!-- fin de seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
