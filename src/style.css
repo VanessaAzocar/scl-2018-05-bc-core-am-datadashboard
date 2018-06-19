@@ -61,7 +61,7 @@ input[type="text"], input[type="password"]{
   width: 100%;
   margin-bottom: 30px;
 }
-#buttonlogin{
+#buttonLogin{
   height: 40px;
   width: 92%;
   display:block;
@@ -77,11 +77,10 @@ input[type="text"], input[type="password"]{
   cursor: pointer; /*junto con cursorhand, para que se vea una mano cuando se pasa por encima*/
   cursor: hand;    
 }
-#buttonlogin:hover{
+#buttonLogin:hover{
   background-color: #FF009E;
   color:white;
 }
-
 
 /*PARA EL MSJE DE CONTRASEÑA INVALIDA*/
 #incorrectPassword{
@@ -94,19 +93,13 @@ input[type="text"], input[type="password"]{
 .afterEntering{
   display: none;
 }
-
-.buttonlogin{
+.buttonLogin{
   display: none;
 }
 
 /*IMPUT BUSQUEDA DE NOMBRES*/
 .navbar-light{
 padding: white;
-}
-.busqueda {
-  background-color: white;
-  color: black;
-  text-align: right;
 }
 .btn-outline-success {
   background-color: black;
@@ -119,7 +112,6 @@ padding: white;
   cursor: hand;
   text-align: right;
 }
-
 .btn-outline-success:hover{
   background-color: #FF009E;
   color:white;
@@ -128,6 +120,7 @@ padding: white;
   margin: none;
 }
 
+/**/
 .form-control {
   height: 30px;
   border-radius: 2px;
@@ -151,8 +144,8 @@ padding: white;
   color: white;
 }
 
-/*Imagen fondo en menu ciudades*/
-.fondoweb {
+/*IMAGEN FONDO EN MENU CIUDADES*/
+.backgroundWeb {
   background-image: url(../img/fondoweb.jpg);
   background-size: 100%;
   background-attachment: fixed;
@@ -160,11 +153,11 @@ padding: white;
 }
 
 /*LISTADO DESPLEGABLE LIMA*/
-.listadoPreadmision{
+.listPreadmission{
   display: none;
 }
 
-#listado {
+#list {
   background-color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -174,16 +167,15 @@ padding: white;
   font-family: 'Open sans';
 }
 
-#titulopre{
+#titlePreadmission{
   font-size: 180%;
   text-align: center;
   margin: 5%;
 }
 
-#parrafoListado{
-  height: 24em;
-  width: 95%;
-  margin-left: 2%;
+#paragraphList{
+  height: 25em;
+  width: 92%;
   background-color: beige;
   resize: none;
   overflow:scroll;
