@@ -21,25 +21,25 @@
 }
 
 /*LOGO*/
-.barraLogo{
+.barLogo{
   text-align: center;
 }
 #logo{
 text-align: center;
 width: 400px;
-margin-top:30px;
-margin-bottom: 30px;
+margin-top:40px;
+margin-bottom: 40px;
 }
 
 /*INGRESAR*/
-.ingresar{
+.login{
   background-color: #FFE521;
   font-family: 'Open Sans';
   border-radius: 0.2em;
   width: 100%;
   height: 410px;
 }
-.titulodos{
+.titleLogin{
   padding: 1px;  
   color: black; 
   text-align: center;
@@ -84,7 +84,7 @@ input[type="text"], input[type="password"]{
 
 
 /*PARA EL MSJE DE CONTRASEÑA INVALIDA*/
-#errorPassword{
+#incorrectPassword{
   color: red;
   text-align: center;
 }
