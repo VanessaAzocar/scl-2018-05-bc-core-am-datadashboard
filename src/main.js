@@ -9,7 +9,7 @@ function entrar() {
     }
     );
   } else {
-    document.getElementById('errorPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
+    document.getElementById('incorrectPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
   }
 }
 
