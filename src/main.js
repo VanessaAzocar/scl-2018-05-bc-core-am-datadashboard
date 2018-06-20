@@ -19,3 +19,4 @@ btnPre.addEventListener('click', () => {
   document.getElementsByClassName('listPreadmission')[0].classList.remove('listPreadmission');
 });
 
+//Función busqueda

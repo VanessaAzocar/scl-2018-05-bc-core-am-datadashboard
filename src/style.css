@@ -166,12 +166,16 @@ margin-bottom: 20px;
   height: 30em;
   margin: 5%;
   font-family: 'Open sans';
+  resize: none;
+  overflow:scroll;
+  
 }
 
 #titlePreadmission{
   font-size: 180%;
   text-align: center;
   margin: 5%;
+  
 }
 
 #paragraphList{
@@ -180,5 +184,7 @@ margin-bottom: 20px;
   background-color: beige;
   resize: none;
   overflow:scroll;
+  
+  
   
 }
