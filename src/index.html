@@ -93,6 +93,18 @@
     <!-- seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
     <section class="afterEntering">
 
+      <!-- inicio datos usuario -->
+      <section>
+        <div class="row">
+          <div class="col-12">
+            <p id="nameUser">
+              Bienvenida: Valentina Smitth
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- fin datos usuario -->
+
       <!-- 4° row, barra busqueda -->
       <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand"></a>
@@ -104,6 +116,7 @@
         </form>
       </nav>
       <!-- fin 4° row, barra busqueda -->
+
 
       <!-- 5° row, Ciudades-->
       <ul class="nav nav-tabs">
@@ -154,26 +167,30 @@
       <!-- foto fija de fondo -->
       <div class="row backgroundWeb">
         <!-- arreglar esto, que toma las caracteristicas de estilo del fondo web -->
-        <div class="col-4 listPreadmission">
+        <div class="col-4-sm listPreadmission">
           <ul id="list">
             <h1 id="titlePreadmission">
-              <strong>Listado de Postulantes</strong>
+              Listado de Postulantes
             </h1>
             <a id="paragraphList"></a>
           </ul>
         </div>
-        <div class="col-8 personalInfo">
-            <h1>Información Personal</h1>
-          <div id="infoUser"></div>
+        <div class="col-sm personalInfo">
+          <div id="infoUser">
+              <h1 id="titlePersonalInfo">
+            Información Personal
+          </h1>
+          <a id="paragraphPersonalInfo"></a>
+          </div>
         </div>
       </div>
-      <!-- fin 6° row cajas de informacion -->  
+      <!-- fin 6° row cajas de informacion -->
     </section>
     <!-- fin de seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
   </div>
   <!-- fin de container general -->
 
-<!-- Link bootstraps -->
+  <!-- Link bootstraps -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
