@@ -17,6 +17,7 @@ function enter() {
 const btnPre = document.getElementById('btnPreadmission');
 btnPre.addEventListener('click', () => {
   document.getElementsByClassName('listPreadmission')[0].classList.remove('listPreadmission');
+  document.getElementsByClassName('personalInfo')[0].classList.remove('personalInfo');
 });
 
 //Función busqueda
