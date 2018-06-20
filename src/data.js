@@ -1,26 +1,3 @@
-/* Con esto aparece el listado de postulantes en un div vacío */
-/* window.onload = () => {
-  dataJSON ();
-}
-const btn = document.getElementById('btnPreadmission'); 
-const container = document.getElementById('paragraphList');  este es el div vacio 
-const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
-
-fetch(usersJSON)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-    renderUsers(data);
-  });
-
-const renderUsers = (data) => { /* recorre el objeto y me devuelve el nombre de cada una 
-  btn.addEventListener('click', () => {
-    const render = data.forEach(element => {
-      return container.innerHTML += `<ul><li><a>${element.name}</a></li></ul>`;
-    });
-    return render;
-  });
-}; */
 
 // LISTADO DE postulantes
 window.onload = () => {
@@ -50,5 +27,30 @@ function dataJSON() {
     });
   };
 }
+
+
+
+
+
+/*
+const btnUser = document.getElementById('btnPreadmission'); 
+const container = document.getElementById('paragraphList');  //este es el div vacio 
+const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
+
+fetch(usersJSON)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    renderUsers(data);
+  });
+
+const renderUsers = (data) => {  recorre el objeto y me devuelve el nombre de cada una 
+  btn.addEventListener('click', () => {
+    const render = data.forEach(element => {
+      return container.innerHTML += `<ul><li><a>${element.name}</a></li></ul>`;
+    });
+    return render;
+  });
+}; */
 
 
