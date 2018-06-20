@@ -90,7 +90,7 @@ input[type="text"], input[type="password"]{
 
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-/*.afterEntering{
+.afterEntering{
   display: none;
 }
 .buttonLogin{
@@ -154,7 +154,7 @@ margin-bottom: 20px;
 }
 
 /*LISTADO DESPLEGABLE LIMA*/
-.listPreadmission{
+.listPreadmission {
   display: none;
 }
 
@@ -168,7 +168,6 @@ margin-bottom: 20px;
   font-family: 'Open sans';
   resize: none;
   overflow:scroll;
-  
 }
 
 #titlePreadmission{
