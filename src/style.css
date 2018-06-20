@@ -201,3 +201,11 @@ margin-bottom: 10px;
   overflow:scroll;
 }
 
+.progress{
+  width: 40%;
+  height: 1em;
+  margin: 5%;
+  font-size: 1em;
+}
+
+
