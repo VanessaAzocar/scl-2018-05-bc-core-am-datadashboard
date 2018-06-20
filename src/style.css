@@ -90,7 +90,7 @@ input[type="text"], input[type="password"]{
 
 
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-.afterEntering{
+/*.afterEntering{
   display: none;
 }
 .buttonLogin{
@@ -100,6 +100,7 @@ input[type="text"], input[type="password"]{
 /*IMPUT BUSQUEDA DE NOMBRES*/
 .navbar-light{
 padding: white;
+margin-bottom: 20px;
 }
 .btn-outline-success {
   background-color: black;
@@ -120,7 +121,6 @@ padding: white;
   margin: none;
 }
 
-/**/
 .form-control {
   height: 30px;
   border-radius: 2px;
@@ -133,12 +133,13 @@ padding: white;
   text-align: left;
 }
 
+/*MENU POR PAISES*/
 .nav-link{
   background-color: #FFE521;
   color: black;
+  font-weight: bold;
   text-align: center;
 }
-
 .nav-link:hover{
   background-color: #FF009E;
   color: white;
