@@ -97,10 +97,18 @@ input[type="text"], input[type="password"]{
   display: none;
 }
 
+/*Nombre del Usuario*/
+#nameUser {
+  font-family: 'Open sans';
+  font-size: 15px;
+  text-align: left;
+  color: black;
+}
+
 /*IMPUT BUSQUEDA DE NOMBRES*/
 .navbar-light{
 padding: white;
-margin-bottom: 20px;
+margin-bottom: 10px;
 }
 .btn-outline-success {
   background-color: black;
@@ -133,6 +141,8 @@ margin-bottom: 20px;
   text-align: left;
 }
 
+
+
 /*MENU POR PAISES*/
 .nav-link{
   background-color: #FFE521;
@@ -158,7 +168,7 @@ margin-bottom: 20px;
   display: none;
 }
 
-#list {
+#list, #infoUser{
   background-color: white;
   border: 1px solid white;
   border-radius: 5px;
@@ -168,23 +178,12 @@ margin-bottom: 20px;
   font-family: 'Open sans';
   resize: none;
   overflow:scroll;
-  
 }
 
-#titlePreadmission{
-  font-size: 180%;
+#titlePreadmission, #titlePersonalInfo{
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   margin: 5%;
-  
 }
 
-#paragraphList{
-  height: 25em;
-  width: 92%;
-  background-color: beige;
-  resize: none;
-  overflow:scroll;
-  
-  
-  
-}
