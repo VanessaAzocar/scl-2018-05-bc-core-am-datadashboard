@@ -27,6 +27,11 @@ function dataJSON() {
       });
       return contenedorNames;
     });
+    const renderId = data.forEach(element => {
+      let listIds = document.createTextNode(element.id);
+      console.log(listIds);
+    });
+    
   };
 
   //Llamar archivos de progress JSON
@@ -43,6 +48,8 @@ function dataJSON() {
   }
 
 
+
+ 
 
   
 /*
