@@ -1,7 +1,7 @@
 
 /* funcion de Ingresar contraseña */
 function enter() {
-  if (document.form.email.value === 'valentina@laboratoria.cl' && document.form.password.value === 'laboratoria') {
+  if (document.form.email.value === 'valentina@laboratoria.la' && document.form.password.value === 'laboratoria') {
     const btnhide = document.getElementById('buttonLogin');
     btnhide.addEventListener('click', () => {
       document.getElementsByClassName('login')[0].classList.add('buttonLogin');
@@ -19,4 +19,5 @@ btnPre.addEventListener('click', () => {
   document.getElementsByClassName('listPreadmission')[0].classList.remove('listPreadmission');
   document.getElementsByClassName('personalInfo')[0].classList.remove('personalInfo');
 });
+
 

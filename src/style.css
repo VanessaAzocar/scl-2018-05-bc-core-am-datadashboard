@@ -220,10 +220,18 @@ padding: white;
 }
 
 .progress{
-  width: 40%;
-  height: 1em;
-  margin: 5%;
-  font-size: 1em;
+  width: 50%;
+  margin-left: 5%;
+}
+
+#paragraphList button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
 }
 
 
+#paragraphList button:hover{
+  cursor: pointer;
+  color: #FF009E;
+}
