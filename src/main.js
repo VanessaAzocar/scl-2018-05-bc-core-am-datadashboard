@@ -20,4 +20,6 @@ btnPre.addEventListener('click', () => {
   document.getElementsByClassName('personalInfo')[0].classList.remove('personalInfo');
 });
 
+/*Busqueda con input*/
+
 
