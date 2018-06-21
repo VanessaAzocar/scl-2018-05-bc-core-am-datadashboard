@@ -21,7 +21,7 @@ function dataJSON() {
         const contenedorNames = document.createElement('button');
         const contenedor = document.getElementById('paragraphList');
         contenedor.appendChild(contenedorData);
-        contenedorData.appendChild(contenedorNames)
+        contenedorData.appendChild(contenedorNames);
         let listName = document.createTextNode(element.name);
         contenedorNames.appendChild(listName);
       });
@@ -29,7 +29,7 @@ function dataJSON() {
     });
   };
 
-  //Llamar archivos de progress JSON
+  // Llamar archivos de progress JSON
 
   const progressJSON = '../data/cohorts/lim-2018-03-pre-core-pw/progress.json';
 
@@ -39,10 +39,8 @@ function dataJSON() {
     .then(progressJSON => {
       progress = progressJSON;
       console.log(progress);
-    })
-  }
-
-
+    });
+}
 
   
 /*
