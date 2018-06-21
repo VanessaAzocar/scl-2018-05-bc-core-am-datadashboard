@@ -1,13 +1,22 @@
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   [class*="col-"] {
     width: 100%;
   }
  /*Aquí adaptamos el logo, ya que al estar en un col-, queda al 100% y deforma la pagina*/
-  [id*="logo"] {
+  .log {
     width: 50%;
   }
    [class*="search"] {
     width: 20%;
   }
+  .user{
+    background-color: #FFE521;
+    font-family: 'Open Sans';
+    border-radius: 0.2em;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
 }
