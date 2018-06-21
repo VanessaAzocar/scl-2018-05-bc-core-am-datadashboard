@@ -187,6 +187,17 @@ margin-bottom: 10px;
   text-align: center;
   margin: 5%;
 }
+#infoUser{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 92%;
+  height: 30em;
+  margin: 5em ;
+  font-family: 'Open sans';
+  resize: none;
+  overflow:scroll;
+}
 
 #infoUser{
   background-color: white;
@@ -201,11 +212,9 @@ margin-bottom: 10px;
   overflow:scroll;
 }
 
-.progress{
-  width: 40%;
-  height: 1em;
-  margin: 5%;
-  font-size: 1em;
+.progress-bar{
+  width: 25%;
+  
 }
 
 
