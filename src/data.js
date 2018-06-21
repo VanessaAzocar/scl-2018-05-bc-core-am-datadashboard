@@ -17,7 +17,7 @@ function dataJSON() {
   const renderUsers = data => {
     btnPre.addEventListener('click', () => {
       const render = data.forEach(element => {
-        const contenedorData = document.createElement('div');
+        const contenedorData = document.createElement('div');   
         const contenedor = document.getElementById('paragraphList');
         contenedor.appendChild(contenedorData);
         let listName = document.createTextNode(element.name);
