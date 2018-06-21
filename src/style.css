@@ -97,18 +97,9 @@ input[type="text"], input[type="password"]{
   display: none;
 }
 
-/*Nombre del Usuario*/
-#nameUser {
-  font-family: 'Open sans';
-  font-size: 15px;
-  text-align: left;
-  color: black;
-}
-
 /*IMPUT BUSQUEDA DE NOMBRES*/
 .navbar-light{
 padding: white;
-margin-bottom: 10px;
 }
 .btn-outline-success {
   background-color: black;
@@ -141,6 +132,22 @@ margin-bottom: 10px;
   text-align: left;
 }
 
+/*Nombre del Usuario*/
+#imgVale{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 5%;  
+  display: inline-block;
+  text-align: center;
+}
+#nameUser {
+  margin-top: 50px;
+  font-family: 'Open sans';
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  display: inline-block;
+ }
 
 
 /*MENU POR PAISES*/
