@@ -42,6 +42,9 @@ function dataJSON() {
     })
   }
 
+
+
+  
 /*
 const btnUser = document.getElementById('btnPreadmission'); 
 const container = document.getElementById('paragraphList');  //este es el div vacio 
