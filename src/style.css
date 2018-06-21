@@ -216,3 +216,15 @@ margin-bottom: 10px;
   width: 50%;
   margin-left: 5%;
 }
+
+#paragraphList button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+#paragraphList button:hover{
+  cursor: pointer;
+  color: #FF009E;
+}
