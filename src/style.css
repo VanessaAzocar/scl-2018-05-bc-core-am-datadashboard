@@ -1,4 +1,3 @@
-
 /* ELEMENTOS DE BARRA SUPERIOR*/
 .topBar {
   background-color: black;
@@ -100,7 +99,6 @@ input[type="text"], input[type="password"]{
 /*IMPUT BUSQUEDA DE NOMBRES*/
 .navbar-light{
 padding: white;
-width: 80%;
 }
 .btn-outline-success {
   background-color: black;
@@ -137,7 +135,7 @@ width: 80%;
 #imgVale{
   margin-left: 25px;
   margin-bottom: 10px;
-  width: 8%;  
+  width: 5%;  
   display: inline-block;
   text-align: center;
 }
