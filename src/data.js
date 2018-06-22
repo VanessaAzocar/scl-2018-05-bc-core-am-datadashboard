@@ -22,9 +22,13 @@ function dataJSON() {
   fetch(progressJSON)
     .then(response => response.json())
     .then(progressUser => {
-      console.log(progressUser);
-      renderProgress(progressUser);
-    });
+      
+      progress = progressUser
+      console.log(progress); 
+      renderProgress();
+      /*renderProgress(progressUser);*/
+    })
+
 
   const renderUsers = dataUser => {
     btnPre.addEventListener('click', () => {
@@ -47,11 +51,48 @@ function dataJSON() {
     });
   };
 
-  /* Recorrer los id de progress */
-  const renderProgress = progressUser => {
-    const renderPro = progressUser.forEach(element => {
-      if (renderId === progressUser.id);
-      console.log(renderProgress);
+  /* Funcion para poder tomar los datos de progress */
+
+function renderProgress(){
+  console.log(progress);
+  const match = progress[listIds]; /* variable para hacer "match" entre id de users y progress */
+  }
+}
+
+
+
+
+
+
+
+
+
+/*
+for (let j in proceso) {
+  let progresId == progreso[i];
+  if (user[i].id === progresId[0]) {
+    console.log(user[i].name+' '+ progresId[1].intro.percent);
+    break;
+  }else {
+    console.log('no');
+    break;
+  }
+}
+const btnUser = document.getElementById('btnPreadmission'); 
+const container = document.getElementById('paragraphList');  //este es el div vacio 
+const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
+
+fetch(usersJSON)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    renderUsers(data);
+  });
+
+const renderUsers = (data) => {  recorre el objeto y me devuelve el nombre de cada una 
+  btn.addEventListener('click', () => {
+    const render = data.forEach(element => {
+      return container.innerHTML += `<ul><li><a>${element.name}</a></li></ul>`;
     });
   };
 
