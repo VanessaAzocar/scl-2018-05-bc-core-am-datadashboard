@@ -27,7 +27,7 @@ function dataJSON() {
     .then(progressUser => {
       
       progress = progressUser
-      console.log(progress);
+      console.log(progress); 
       renderProgress();
       /*renderProgress(progressUser);*/
     })
@@ -58,7 +58,7 @@ function dataJSON() {
   /* Funcion para poder tomar los datos de progress */
 
 function renderProgress(){
-  console.log(progress)
+  console.log(progress);
   const match = progress[listIds]; /* variable para hacer "match" entre id de users y progress */
   }
 }
