@@ -1,22 +1,41 @@
 
-// LISTADO DE postulantes
+/* Listado de postulantes */
+let progress;
 window.onload = () => {
   dataJSON();
 };
 
 function dataJSON() {
   const btnPre = document.getElementById('btnPreadmission');
-  const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
 
+  const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
+  const progressJSON = '../data/cohorts/lim-2018-03-pre-core-pw/progress.json';
+  const listIds = [];
+
+  /* Llamar archivos de users JSON */
   fetch(usersJSON)
     .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      renderUsers(data);
+    .then(dataUser => {
+      console.log(dataUser);
+      renderUsers(dataUser);
+      renderProgress();
     });
-  const renderUsers = data => {
+
+  /* Llamar archivos de progress JSON */
+  fetch(progressJSON)
+    .then(response => response.json())
+    .then(progressUser => {
+      
+      progress = progressUser
+      console.log(progress);
+      renderProgress();
+      /*renderProgress(progressUser);*/
+    })
+
+
+  const renderUsers = dataUser => {
     btnPre.addEventListener('click', () => {
-      const render = data.forEach(element => {
+      const render = dataUser.forEach(element => {
         const contenedorData = document.createElement('div');
         const contenedorNames = document.createElement('button');
         const contenedor = document.getElementById('paragraphList');
@@ -25,34 +44,44 @@ function dataJSON() {
         let listName = document.createTextNode(element.name);
         contenedorNames.appendChild(listName);
       });
-      return contenedorNames;
+      return render;
     });
-    const renderId = data.forEach(element => {
+
+    /* Recorrer los id de los users */
+    const renderId = dataUser.forEach(element => {
       let listIds = document.createTextNode(element.id);
       console.log(listIds);
-    });
-    
+      return listIds;
+    })
   };
 
-  //Llamar archivos de progress JSON
+  /* Funcion para poder tomar los datos de progress */
 
-  const progressJSON = '../data/cohorts/lim-2018-03-pre-core-pw/progress.json';
-
-
-  fetch(progressJSON)
-    .then(response => response.json())
-    .then(progressJSON => {
-      progress = progressJSON;
-      console.log(progress);
-    })
+function renderProgress(){
+  console.log(progress)
+  const match = progress[listIds]; /* variable para hacer "match" entre id de users y progress */
   }
+}
 
 
 
- 
 
-  
+
+
+
+
+
 /*
+for (let j in proceso) {
+  let progresId == progreso[i];
+  if (user[i].id === progresId[0]) {
+    console.log(user[i].name+' '+ progresId[1].intro.percent);
+    break;
+  }else {
+    console.log('no');
+    break;
+  }
+}
 const btnUser = document.getElementById('btnPreadmission'); 
 const container = document.getElementById('paragraphList');  //este es el div vacio 
 const usersJSON = '../data/cohorts/lim-2018-03-pre-core-pw/users.json';
