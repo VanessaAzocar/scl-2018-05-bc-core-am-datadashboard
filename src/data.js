@@ -51,7 +51,7 @@ function dataJSON() {
   const renderProgress = progressUser => {
     const renderPro = progressUser.forEach(element => {
       if (renderId === progressUser.id);
-      console.log(renderProgress)
+      console.log(renderProgress);
     });
   };
 
