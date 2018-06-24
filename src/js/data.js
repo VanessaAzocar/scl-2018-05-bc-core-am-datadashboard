@@ -1,5 +1,5 @@
+/* Listado de postulantes */
 
-// LISTADO DE postulantes
 window.onload = () => {
   dataJSON();
 };
