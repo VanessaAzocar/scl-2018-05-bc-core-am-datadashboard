@@ -12,7 +12,6 @@ function enter() {
     document.getElementById('incorrectPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
   }
 }
-
 /* Este boton es el que abre el listado de pre admision en el menú superior*/
 const btnPre = document.getElementById('btnPreadmission');
 btnPre.addEventListener('click', () => {
@@ -20,6 +19,6 @@ btnPre.addEventListener('click', () => {
   document.getElementsByClassName('personalInfo')[0].classList.remove('personalInfo');
 });
 
-/*Busqueda con input*/
+/* Busqueda con input*/
 
 
