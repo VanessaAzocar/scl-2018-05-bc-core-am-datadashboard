@@ -22,12 +22,11 @@ function dataJSON() {
   fetch(progressJSON)
     .then(response => response.json())
     .then(progressUser => {
-      
-      progress = progressUser
-      console.log(progress); 
+      progress = progressUser;
+      console.log(progress);
       renderProgress();
-      /*renderProgress(progressUser);*/
-    })
+      /* renderProgress(progressUser);*/
+    });
 
 
   const renderUsers = dataUser => {
@@ -53,18 +52,11 @@ function dataJSON() {
 
   /* Funcion para poder tomar los datos de progress */
 
-function renderProgress(){
-  console.log(progress);
-  const match = progress[listIds]; /* variable para hacer "match" entre id de users y progress */
+  function renderProgress() {
+    console.log(progress);
+    const match = progress[listIds]; /* variable para hacer "match" entre id de users y progress */
   }
 }
-
-
-
-
-
-
-
 
 
 /*
@@ -117,4 +109,3 @@ const renderUsers = (data) => {  recorre el objeto y me devuelve el nombre de ca
       return render;
     });
   }; */
-}
