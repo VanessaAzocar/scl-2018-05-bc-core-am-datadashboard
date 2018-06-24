@@ -1,6 +1,6 @@
-
 /* Listado de postulantes */
 let progress;
+
 window.onload = () => {
   dataJSON();
 };

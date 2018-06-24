@@ -63,6 +63,19 @@ Para visualizarlo desde Figma, haz click [aquí](https://www.figma.com/file/JGYF
 Para visualizarlo desde Figma, haz click [aquí](https://www.figma.com/file/b0w9pHqGBusBIPh9edERKlpw/Untitled) 
 
 
+## Planificación de proyecto
+
+Para conocer la planificación del proyecto completo, dividido en 3 Sprints, haz click [aquí](https://trello.com/b/9snQfxqR/proyecto-2-datadashboard).
+
+## Datos para ingresar en la Página:
+
+* Usuario: valentina@laboratoria.la
+* Password: laboratoria
+
+
+
+
+
 
 
 

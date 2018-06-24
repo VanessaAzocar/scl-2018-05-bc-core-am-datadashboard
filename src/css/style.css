@@ -164,7 +164,7 @@ padding: white;
 
 /*IMAGEN FONDO EN MENU CIUDADES*/
 .backgroundWeb {
-  background-image: url(../img/fondoweb.jpg);
+  background-image: url(../../img/fondoweb.jpg);
   background-size: 100%;
   background-attachment: fixed;
   height: 70em;
